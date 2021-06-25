@@ -22,12 +22,33 @@
 *.cfg
 !cfg/yolov3*.cfg
 
+
+!data/mesad-real/train/annotations/real1_frame_490.bboxes.labels.tsv
+!data/mesad-real/train/annotations/real1_frame_490.bboxes.tsv
+!data/mesad-real/train/images/real1_frame_490.jpg
+!data/mesad-real/train/labels/real1_frame_490.txt
+
+!data/mesad-real/val/annotations/real3_frame_5.bboxes.labels.tsv
+!data/mesad-real/val/annotations/real3_frame_5.bboxes.tsv
+!data/mesad-real/val/images/real3_frame_5.jpg
+!data/mesad-real/val/labels/real3_frame_5.txt
+
+!data/mesad-real/annotations/train/real1_frame_490.bboxes.labels.tsv
+!data/mesad-real/annotations/train/real1_frame_490.bboxes.tsv
+!data/mesad-real/images/train/real1_frame_490.jpg
+!data/mesad-real/labels/train/real1_frame_490.txt
+
+!data/mesad-real/annotations/val/real3_frame_5.bboxes.labels.tsv
+!data/mesad-real/annotations/val/real3_frame_5.bboxes.tsv
+!data/mesad-real/images/val/real3_frame_5.jpg
+!data/mesad-real/labels/val/real3_frame_5.txt
+
+!data/mesad-real/reorganize.sh
+
 storage.googleapis.com
 runs/*
 data/*
 !data/hyps/*
-!data/images/zidane.jpg
-!data/images/bus.jpg
 !data/*.sh
 
 results*.txt
