@@ -21,7 +21,17 @@
 *.json
 *.cfg
 !cfg/yolov3*.cfg
+*.tsv
+*.txt
 
+
+
+
+storage.googleapis.com
+runs/*
+data/*
+!data/hyps/*
+!data/*.sh
 
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.labels.tsv
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.tsv
@@ -44,12 +54,6 @@
 !data/mesad-real/labels/val/real3_frame_5.txt
 
 !data/mesad-real/reorganize.sh
-
-storage.googleapis.com
-runs/*
-data/*
-!data/hyps/*
-!data/*.sh
 
 results*.txt
 
