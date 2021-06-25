@@ -12,6 +12,10 @@
 runs/*
 wandb/*
 
+!images/data_directory.png
+!images/output.png
+!images/setup.png
+
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.labels.tsv
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.tsv
 !data/mesad-real/train/images/real1_frame_490.jpg
