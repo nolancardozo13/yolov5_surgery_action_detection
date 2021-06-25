@@ -1,0 +1,9 @@
+# train and validation directories
+train: data/mesad-real/images/train/
+val: data/mesad-real/images/val/
+
+# number of classes 
+nc: 21
+
+# names of the classes
+names: ['CuttingTissue', 'PullingSeminalVesicle', 'CuttingSeminalVesicle', 'SuckingSmoke','PullingTissue', 'SuckingBlood', 'PullingVasDeferens', 'ClippingVasDeferens','CuttingVasDeferens', 'ClippingTissue', 'ClippingSeminalVesicle', 'CuttingMesocolon','CuttingProstate', 'PullingProstate', 'PullingBladderNeck', 'CuttingThread', 'BladderNeckDissection', 'UrethraDissection', 'ClippingBladderNeck', 'BaggingProstate','BladderAnastomosis']

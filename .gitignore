@@ -2,36 +2,15 @@
 *.jpg
 *.jpeg
 *.png
-*.bmp
-*.tif
-*.tiff
-*.heic
 *.JPG
 *.JPEG
 *.PNG
-*.BMP
-*.TIF
-*.TIFF
-*.HEIC
-*.mp4
-*.mov
-*.MOV
-*.avi
-*.data
 *.json
-*.cfg
-!cfg/yolov3*.cfg
 *.tsv
 *.txt
 
-
-
-
-storage.googleapis.com
 runs/*
-data/*
-!data/hyps/*
-!data/*.sh
+wandb/*
 
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.labels.tsv
 !data/mesad-real/train/annotations/real1_frame_490.bboxes.tsv
@@ -53,14 +32,7 @@ data/*
 !data/mesad-real/images/val/real3_frame_5.jpg
 !data/mesad-real/labels/val/real3_frame_5.txt
 
-!data/mesad-real/reorganize.sh
 
-results*.txt
-
-# Datasets -------------------------------------------------------------------------------------------------------------
-coco/
-coco128/
-VOC/
 
 # MATLAB GitIgnore -----------------------------------------------------------------------------------------------------
 *.m~
